@@ -8,7 +8,7 @@ set -e
 # cd docs/.vuepress/dist
 
 # # 如果是发布到自定义域名
-# # echo 'www.example.com' > CNAME
+# echo 'www.example.com' > CNAME
 
 git init
 git add -A
