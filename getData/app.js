@@ -5,7 +5,7 @@ const fs = require('fs')
 
 let dt = new Date()
 let nowHour = dt.getHours()
-if (nowHour % 3 === 0) {
+if (nowHour % 1 === 0) {
     getData()
 }
 async function getData() {
